@@ -1,0 +1,27 @@
+.status__submit {
+    background-color: #E6EEEA;
+    border: none;
+    width: 400px;
+    height: 25px;
+}
+
+.status__submit:focus {
+    outline: none;
+    border: 1px solid #36abc7;
+}
+
+.status__message {
+    display: flex;
+    align-items: center;
+    width: 880px;
+    height: 25px;
+}
+
+.status__message {
+    color: #47525e;
+}
+.status__message:hover {
+    cursor: pointer;
+    background-color: #ebedf0;
+}
+

@@ -1,0 +1,119 @@
+.login__input__box {
+    color: #47525E;
+    font-size: 26px;
+    line-height: 33px;
+    margin-top: 98px;
+}
+
+.login__type {
+    margin-top: 18px;
+}
+
+.login__input {
+    background-color: #E1E1E1;
+    width: 260px;
+    height: 46px;
+
+    color: #47525E;
+    font-size: 26px;
+    line-height: 33px;
+    border: none;
+    margin-top: 22px;
+    padding-left: 16px;
+}
+
+.login__input::placeholder {
+    color: #929293;
+}
+
+.login__input:focus {
+    outline: none;
+    border: 1px solid #285f8f;
+}
+
+.common__error {
+    color: red;
+    font-weight: 700;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.common__error:before {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    content: '\F06A';
+    margin-right: 5px;
+}
+
+.login__form {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 32px;
+}
+
+/* Input checkbox */
+
+.login__form__checkbox {
+    display: flex;
+    align-items: center;
+}
+
+input[type=checkbox] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    /* create custom checkbox appearance */
+    width: 25px;
+    height: 25px;
+    padding: 6px;
+    /* background-color only for content */
+    background-clip: content-box;
+    border: 1.5px solid #bbbbbb;
+    border-radius: 6px;
+    background-color: #e7e6e7;
+    cursor: pointer;
+}
+
+input[type=checkbox]:checked {
+    background-color: #e44163;
+}
+
+input[type=checkbox]:focus {
+    outline: none;
+}
+
+.login__form__text {
+    color: #47525E;
+    font-size: 13px;
+    margin-left: 5px;
+}
+
+/* Button */
+
+.login__form__button {
+    width: 116px;
+    height: 50px;
+    padding: 9px 27px;
+    border: 1px solid #285f8f;
+    border-radius: 5px;
+    background-image: linear-gradient(#4f93ce, #285f8f);
+
+    cursor: pointer;
+    color: #FFF;
+    font-size: 26px;
+
+    transition: background-color .2s linear, color .02s linear, border-color .2s linear;
+}
+
+.login__form__button:focus {
+    outline: none;
+}
+
+.login__form__button:hover {
+    background-image: linear-gradient(#63a0d4, #337ab7);
+}

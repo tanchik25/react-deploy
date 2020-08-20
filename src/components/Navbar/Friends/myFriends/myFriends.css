@@ -1,0 +1,25 @@
+/* myFriends */
+.myFriends__col {
+    margin-right: 15px;
+}
+
+.myFriends__avatar {
+    background-color: #FFC82C;
+    border-radius: 100%;
+    width: 58px;
+    height: 58px;
+    margin-bottom: 7px;
+}
+
+.myFriends__avatar img {
+    width: 100%;
+    border-radius: 100%;
+}
+
+.myFriends__name {
+    color: #FFFFFF;
+    font-size: 18px;
+    line-height: 23px;
+    margin: 0 auto;
+}
+

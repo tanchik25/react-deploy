@@ -1,0 +1,62 @@
+.dialogs__col {
+    display: flex;
+    margin-bottom: 55px;
+}
+
+.dialogs__profile {
+    text-align: center;
+}
+
+.dialogs__avatar {
+    background-color: #E5E9F2;
+    border-radius: 100%;
+    width: 70px;
+    height: 70px;
+    position: relative;
+}
+
+.dialogs__avatar img {
+    position: absolute;
+    top: 45%;
+    right: 50%;
+    transform: translate(50%, 0);
+    width: 35px;
+    height: 14px;
+}
+
+.dialogs__name {
+    margin-top: 2px;
+    color: #8190A5;
+    font-size: 18px;
+}
+
+.dialogs__symbol img {
+    position: absolute;
+    transform: translate(50%, 40%) rotate(90deg);
+    width: 40px;
+    height: 20px;
+}
+
+.dialogs__text  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
+    margin-left: 51px;
+
+    color: #8190A5;
+    font-size: 18px;
+    line-height: 30px;
+
+    background-color: #FFFFFF;
+    border: 2px solid #C0CCDA;
+    border-radius: 10px;
+    width: 277px;
+    min-height: 89px;
+}
+
+.dialogs__text p {
+    text-align: center;
+    width: 239px;
+}

@@ -1,0 +1,44 @@
+/* Form */
+.post {
+    margin-top: 42px;
+    margin-left: 36px;
+}
+
+.post__item {
+    margin-bottom: 92px;
+}
+
+.post__img {
+    background-color: #FFC82C;
+    border-radius: 100%;
+    width: 58px;
+    height: 58px;
+    position: absolute;
+}
+
+.post__icon {
+    width: 58px;
+    height: 58px;
+    border-radius: 100%;
+    object-fit: cover;
+}
+
+.post__message {
+    color: #47525E;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 33px;
+    text-align: left;
+
+    position: relative;
+    margin-left: 94px;
+}
+
+.post__likes {
+    color: #47525E;
+    font-size: 12px;
+    font-weight: 700;
+    position: relative;
+    margin-left: 94px;
+    margin-top: 10px;
+}

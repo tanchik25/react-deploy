@@ -1,0 +1,21 @@
+/* Wrapper */ 
+.app-wrapper {
+    display: grid;
+    grid-template-areas:
+        "header header"
+        "nav content";
+    grid-template-rows: 74px 1fr;
+    grid-template-columns: 2fr 10fr;
+    grid-gap: 16px 20px;
+
+    max-width: 1440px;
+    margin: 0 auto;
+
+    font-family: Lato, sans-serif;
+}
+
+
+
+
+
+

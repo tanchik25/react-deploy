@@ -1,0 +1,35 @@
+.dialogs__title {
+    color: #47525E;
+    font-size: 26px;
+    text-transform: uppercase;
+}
+
+.dialogs__table {
+    display: flex;
+}
+
+.dialogs__left {
+    margin-left: 20px;
+    margin-top: 25px;
+    position: relative;
+}
+
+.dialogs__left:before {
+    content: "";
+    display: block;
+    width: 1px;
+    height: 100%;
+
+    background-color: #7E55F3;
+
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.dialogs__right {
+    max-width: 600px;
+    margin: 25px 0 25px 80px;
+}
+

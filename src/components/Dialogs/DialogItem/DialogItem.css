@@ -1,0 +1,36 @@
+.dialogs__users {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.dialogs__photo {
+    background-color: #FFC82C;
+    border-radius: 100%;
+    margin-right: 25px;
+
+    width: 58px;
+    height: 58px;
+}
+
+.dialogs__img {
+    width: 100%;
+    border-radius: 100%;
+}
+
+.dialogs__user {
+    width: 258px;
+}
+
+.dialogs__user a {
+    text-decoration: none;
+    color: #8190A5;
+    font-size: 18px;
+    line-height: 36px;
+    transition: color .2s linear;
+}
+
+.dialogs__user a:focus {
+    color: #343F4B;
+    font-size: 24px;
+}

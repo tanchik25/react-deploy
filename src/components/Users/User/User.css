@@ -1,0 +1,97 @@
+.users__item {
+    display: flex;
+    align-items: center;
+    margin: 52px 0 30px 68px;
+}
+
+.users__right {
+    display: flex;
+    flex-direction: column;
+    max-width: 80px;
+    align-items: center;
+    margin-right: 50px;
+}
+
+.users__avatar {
+    background-color: #E5E9F2;
+    border-radius: 100%;
+    width: 70px;
+    height: 70px;
+}
+
+.users__img {
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    object-fit: cover;
+}
+
+.users__btn {
+    background-color: #0CB658;
+    height: 36px;
+    border: none;
+    cursor: pointer;
+
+    color: #FFFFFF;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 33px;
+    padding: 0 15px;
+    margin-top: 10px;
+
+    transition: background-color .2s linear, color .02s linear, border-color .2s linear;
+}
+
+.users__btn:hover {
+    background-color: #e44163;
+    color: #ffffff;
+    border-color: #e44163;
+}
+
+.users__btn:focus {
+    outline: none;
+    box-shadow: 0 0 0 4px #cbd6ee;
+}
+
+.users__btn[disabled] {
+    color: #d2d5db;
+    background: #6c7589;
+}
+
+.users__data {
+    color: #8190A5;
+    font-size: 18px;
+    line-height: 30px;
+
+    background-color: #FFFFFF;
+    border: 2px solid #C0CCDA;
+    border-radius: 10px;
+    width: 600px;
+    min-height: 91px;
+
+    display: flex;
+    align-items: center;
+}
+
+.users__info {
+    margin: 0 auto;
+    padding: 15px;
+    width: 570px;
+}
+
+.users__basic__info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+
+.users__name {
+    font-weight: 700;
+    font-size: 21px;
+}
+
+.users__hometown {
+    font-weight: 700;
+    text-align: right;
+    font-style: italic;
+}
