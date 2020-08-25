@@ -51,6 +51,17 @@ export const profileAPI = {
         }).then(response => {
             return response.data
         });
+    },
+    savePhoto(photoFile) {
+        return instance.patch('profile/8819', {
+            photos: photoFile,
+            headers: {
+                'Accept': 'application/json',
+                "Content-Type": "application/json"
+            }
+        }).then(response => {
+            return response.data
+        });
     }
 }
 

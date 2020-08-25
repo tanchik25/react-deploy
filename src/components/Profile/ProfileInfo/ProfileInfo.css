@@ -53,3 +53,31 @@
 .content__data__right {
     color: #5281b9;
 }
+
+/*Upload button*/
+.content__upload__btn__wrapper {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    top: -40px;
+}
+
+.content__btn {
+    border: 2px solid gray;
+    color: gray;
+    background-color: white;
+    padding: 8px 20px;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.content__upload__btn__wrapper input[type=file] {
+    font-size: 30px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    cursor: pointer;
+    margin-left: -300px; /*see cursor*/
+}
