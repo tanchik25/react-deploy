@@ -1,0 +1,58 @@
+.save__btn {
+    margin-bottom: 15px;
+
+    border: 2px solid gray;
+    color: gray;
+    background-color: white;
+    padding: 6px 20px;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: right;
+    cursor: pointer;
+}
+
+.info__input {
+    background-color: #E6EEEA;
+    border: none;
+    width: 300px;
+    height: 25px;
+}
+
+.info__input:focus {
+    outline: none;
+    border: 1px solid #36abc7;
+}
+
+/*Errors*/
+.flexContainer {
+    display: flex;
+    align-items: center;
+}
+
+.field__error {
+    color: red;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.field__error:before {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    content: '\F06A';
+    margin-right: 5px;
+}
+
+.formControl {
+    margin-right: 10px;
+}
+
+.formControl.error input {
+    border: 1px solid red;
+}
+
+

@@ -62,6 +62,20 @@ export const profileAPI = {
         }).then(response => {
             return response.data
         });
+    },
+    saveProfile(profile) {
+        return instance.patch('profile/8819', {
+            birthday: profile.birthday,
+            city: profile.city,
+            education: profile.education,
+            relationship: profile.relationship,
+            headers: {
+                'Accept': 'application/json',
+                "Content-Type": "application/json"
+            }
+        }).then(response => {
+            return response.data
+        });
     }
 }
 
@@ -71,8 +85,8 @@ export const authAPI = {
             return response.data
         });
     },
-    login(email, password, rememberMe = false) {
-        return axios.post("https://social-network.samuraijs.com/api/1.0/auth/login", {email, password, rememberMe}, {
+    login(email, password, rememberMe = false, captcha= null) {
+        return axios.post("https://social-network.samuraijs.com/api/1.0/auth/login", {email, password, rememberMe, captcha}, {
             withCredentials: true,
             headers: {
                 'API-KEY': '5db0d2c4-17ca-4341-8759-a75bd5386089'
@@ -88,6 +102,14 @@ export const authAPI = {
                 'API-KEY': '5db0d2c4-17ca-4341-8759-a75bd5386089'
             }
         }).then(response => {
+            return response.data
+        });
+    }
+}
+
+export const securityAPI = {
+    getCaptchaUrl() {
+        return axios.get(`https://social-network.samuraijs.com/api/1.0/security/get-captcha-url`, {withCredentials: true}).then(response => {
             return response.data
         });
     }

@@ -1,0 +1,26 @@
+.save__btn {
+    margin-bottom: 15px;
+
+    border: 2px solid gray;
+    color: gray;
+    background-color: white;
+    padding: 6px 20px;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: right;
+}
+
+.data__input {
+    background-color: #E6EEEA;
+    border: none;
+    width: 300px;
+    height: 25px;
+}
+
+.data__input:focus {
+    outline: none;
+    border: 1px solid #36abc7;
+}
+
+

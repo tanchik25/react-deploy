@@ -6,11 +6,14 @@
 
 }
 
-.content__img img {
+.content__img {
+    position: absolute;
+}
+
+.content__photo img {
     width: 174px;
     height: 164px;
     object-fit: cover;
-    position: absolute;
 }
 
 .content__text {
@@ -27,39 +30,12 @@
     text-align: left;
 }
 
-.content__data {
-    display: flex;
-
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 33px;
-    min-width: 489px;
-    text-align: left;
-    margin-top: 26px;
-}
-
-.content__data__icons {
-    text-align: center;
-    color: #aaadb2;
-    margin-right: 20px;
-    font-size: 20px;
-}
-
-.content__data__left {
-    margin-right: 40px;
-    color: #aaadb2;
-}
-
-.content__data__right {
-    color: #5281b9;
-}
-
 /*Upload button*/
 .content__upload__btn__wrapper {
     position: relative;
     overflow: hidden;
     display: inline-block;
-    top: -40px;
+    top: 20px;
 }
 
 .content__btn {
